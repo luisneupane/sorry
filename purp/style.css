@@ -88,6 +88,22 @@ background-color: transparent;
 
 
 }
+@media (max-width: 768px) { /* tablets and smaller */
+  .b p {
+    font-size: 1.2rem; /* smaller font */
+    max-width: 95%;    /* fit screen */
+    border-right: 1px solid white; /* smaller cursor */
+  }
+}
+
+@media (max-width: 480px) { /* mobile phones */
+  .b p {
+    font-size: 0.9rem; /* smaller font for phones */
+    max-width: 100%;
+    border-right: 1px solid white;
+  }
+}
+
 
 
 
