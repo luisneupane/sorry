@@ -27,12 +27,13 @@ body {
 }
 
 .b p {
-  font-size: 2rem;
+  font-size: 5rem;
   /* color: rgb(154, 46, 46); */
   overflow: hidden;
   white-space: nowrap;
   border-right: 2px solid white; /* cursor effect */
     animation: fadeIn 15s forwards; /* run animation when element appears */
+position: fixed;
 
 }
 @keyframes fadeIn {
@@ -80,7 +81,6 @@ background-color: transparent;
     justify-content: center !important;
     width: auto !important;
     color: rgb(15, 14, 14) !important;
-      margin-bottom: 100vh;
 
 }
 .c span{
@@ -88,6 +88,7 @@ background-color: transparent;
 
 
 }
+
 
 
 
