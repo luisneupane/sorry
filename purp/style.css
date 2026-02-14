@@ -80,10 +80,13 @@ background-color: transparent;
     justify-content: center !important;
     width: auto !important;
     color: rgb(15, 14, 14) !important;
+      margin-bottom: 10vh;
+
 }
 .c span{
     background-color: brown;
 
 
 }
+
 
