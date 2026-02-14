@@ -1,0 +1,87 @@
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background-image: url('me.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Heart animation container */
+.a {
+  flex: 0 0 80vh;
+  position: relative;
+}
+
+/* Text container */
+.b {
+  flex: 0 0 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+}
+
+.b p {
+  font-size: 5rem;
+  /* color: rgb(154, 46, 46); */
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white; /* cursor effect */
+    animation: fadeIn 15s forwards; /* run animation when element appears */
+
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+#Aa{
+    margin-right:10px ;
+    color: white;
+}
+#B{
+    margin-right:10px ;
+    color: rgb(193, 63, 63);
+}
+
+/* Make the WebGL canvas transparent */
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+/* Keep SVG centered (optional) */
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none; /* toggle if needed */
+}
+#love{
+    height: 1px;
+    color: transparent;
+background-color: transparent;
+}
+
+.c{
+    height: 10vh !important;
+    font-size: xx-large !important; 
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
+    color: rgb(15, 14, 14) !important;
+}
+.c span{
+    background-color: brown;
+
+}
