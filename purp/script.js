@@ -3,7 +3,7 @@ console.clear();
 setTimeout(() => {
   const loveEl = document.getElementById("love");
   loveEl.classList.add("c"); // add class "c"
-}, 5000);
+}, 7000);
 
 /* THREE.JS SETUP */
 const scene = new THREE.Scene();
@@ -85,3 +85,4 @@ window.addEventListener("DOMContentLoaded", () => {
 
   typeWriter();
 });
+
